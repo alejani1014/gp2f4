@@ -14,6 +14,7 @@ Requereix tenir instal·lat previament:
 	git clone https://github.com/globproj2/gp2f4.git
 	cd gp2f4
 
+
 2. Inicia la màquina virtual amb les ordres de `Vagrant`:
 
 	vagrant up
@@ -23,24 +24,43 @@ Requereix tenir instal·lat previament:
 
 	vagrant ssh
 
+
 4. Surt de la màquina virtual:
 	
 	exit
+
 
 5. Atura la màquina virtual:
 
 	vagrant halt
 
+
 6. Esborra la màquina virtual:
 	
 	vagrant destroy
 	
-7. Carpetes del projecte:
+
+7. Si volem canviar els paràmetres d'una màquina virtual:
+
+	- No cal aturar la màquina virtual
+	- Editem els paràmetres de la màquina virtual dins del fitxer Vagrantfile
+	- Executem: vagrant reload
+
+
+8. Si volem canviar els paràmetres d'una màquina virtual:
+
+        - No cal aturar la màquina virtual
+        - Afegim el nou programari a instal·lar dins del fitxer Vagrantfile
+        - Executem: vagrant provision
+
+
+9. Carpetes del projecte:
 
 	Màquina física --> gp2f4/codi
 	Màquina virtuak --> /var/www/html
+
 	
-8. Accés a l'aplicació:
+10. Accés a l'aplicació:
 	
 	http://localhost:8000/index.php
 	https://localhost:8443/index.php
