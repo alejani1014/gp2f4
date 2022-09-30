@@ -1,6 +1,13 @@
-<?php
-    echo "Hola món<br>";
-    echo "Som el grup00<br>";
-    echo "Aquesta és l'activitat GP2F4A6.3<br>";
-    echo "Estem treballant amb PHP VS Code Git VirtualBox i Vagrant";
-?>
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			PÀGINA INICIAL DE L'APLICACIÓ CALCULADORA
+		</title>
+	</head>
+	<body>
+		<p><b>CALCUALDORA ARITMÈTICA</b></p>
+		<a href="suma.html">a) Suma de 2 operands</a>
+	</body>
+<html>
