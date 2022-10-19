@@ -26,8 +26,8 @@
 	    $ipAddress = $sub->getIPAddress();        
 		echo "L'adreça IP és $ipAddress/".$operand2."<br><br>";
 
-		$subnetMask = $sub->getSubnetMask();        
-		echo "La màscara de subxarxa és $subnetMask<br><br>";
+		$network = $sub->getNetworkPortion();        
+		echo "El network és $network<br><br>";
 
 		$broadcastAddress = $sub->getBroadcastAddress();
 		echo "El broadcast és $broadcastAddress<br><br>";
