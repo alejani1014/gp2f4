@@ -11,6 +11,7 @@
 			<a href="suma.html">a) Suma de 2 operands</a><br><br>
 			<a href="resta.html">b) Resta de 2 operands</a><br><br>
 			<a href="multiplicacio.html">c) Multiplicació de 2 operands</a><br><br>
-			<a href="divisio.html">d) Divisió de 2 operands</a>
+			<a href="divisio.html">d) Divisió de 2 operands</a><br><br>
+			<a href="ip.html">e) Càlcul IP</a>
 		</body>
 	<html>

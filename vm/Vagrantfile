@@ -1,9 +1,9 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "debian/bullseye64"
-  config.vm.hostname = "grup00.fjeclot.net"
+  config.vm.hostname = "grup06.fjeclot.net"
   config.vm.provider "virtualbox" do |v|
     # v.gui = true
-    v.name = "grup00"
+    v.name = "grup06"
     v.memory = 2048
     v.cpus = 2
     v.customize ['modifyvm', :id, '--clipboard', 'bidirectional']
